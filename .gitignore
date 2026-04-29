@@ -1,0 +1,33 @@
+# Backend
+backend/target/
+backend/*.log
+backend/hs_err_pid*.log
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiments (keep .gitkeep)
+experiments/results/*
+!experiments/results/.gitkeep
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
